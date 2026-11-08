@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.0",
+  "product": "pipmcp",
+  "credential": "PIPMCP_API_KEY",
+  "skills": [
+    {
+      "name": "pipmcp-microsoft-outlook",
+      "description": "Connect AI agents to Microsoft Outlook using one PipMCP API key and actual hosted tool discovery."
+    }
+  ],
+  "files": {
+    "skills/pipmcp-microsoft-outlook/SKILL.md": "6612e446d0dc0b4fe08357e17d47a84cb3a33de4568d22772bff21a3fd92d10c"
+  }
+}
