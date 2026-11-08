@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "status": "ready",
+  "verification": "mock-only",
+  "releaseEligible": true,
+  "maintainer": "jannikco",
+  "license": "MIT",
+  "sourceRevision": "e1c0a0e463f9e9707a32785420f7797ec3f33b2486826c3c313939272fd00a98",
+  "evidence": [
+    "Source-backed provider setup metadata",
+    "Offline configuration and MCP protocol tests"
+  ],
+  "provenance": [
+    "https://raw.githubusercontent.com/microsoftgraph/msgraph-metadata/master/openapi/v1.0/openapi.yaml"
+  ],
+  "id": "microsoft-outlook-mcp",
+  "kind": "mcp-setup",
+  "product": "pipmcp",
+  "title": "Microsoft Outlook MCP setup and connection checker",
+  "description": "Generate Microsoft Outlook MCP client configuration, inspect available tools and validate hosted endpoint access through PipMCP.",
+  "operationIds": [],
+  "appSlug": "microsoft-outlook",
+  "appName": "Microsoft Outlook",
+  "providerDocs": "https://raw.githubusercontent.com/microsoftgraph/msgraph-metadata/master/openapi/v1.0/openapi.yaml",
+  "providerWebsite": "https://outlook.com/",
+  "authentication": {
+    "type": "oauth2_authorization_code",
+    "requiredCredentialFields": [
+      "client_id",
+      "client_secret",
+      "owner_authorization"
+    ],
+    "requiredHeaderNames": [],
+    "helpUrl": "https://learn.microsoft.com/en-us/entra/identity-platform/quickstart-register-app",
+    "tenantRequired": false,
+    "accountParameterNames": []
+  },
+  "attributionSlug": "github-microsoft-outlook-mcp",
+  "factory": "leadadapter-pipmcp",
+  "generatorVersion": 1
+}
